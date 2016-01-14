@@ -1,6 +1,12 @@
-"mode helper functions
-"---------------------
-"
+" vim-bepo - Plugin vim pour disposition de clavier bépo
+" Maintainer:   Micha Moskovic
+
+if exists('g:loaded_bepo') || &compatible
+  finish
+else
+  let g:loaded_bepo = 1
+endif
+
 "s:tomap is for text-objects
 function! s:tomap(key, target) abort
   if maparg(a:key, 'o') ==# ''
@@ -10,6 +16,7 @@ function! s:tomap(key, target) abort
     execute "xnoremap" a:key a:target
   endif
 endfunction
+
 "s:amap is for the rest
 function! s:amap(key, target) abort
   if maparg(a:key, 'n') ==# ''
@@ -48,8 +55,9 @@ call s:amap(   '»',  '>'     )    "idem pour [»] et [>]
 call s:amap(   ';',  ','     )    "idem pour [,] et [;]
 call s:amap(   ',',  ';'     )    "qui sont permutés
 call s:amap(  'g,',  'g;'    )    "idem pour [g,] et [g;]
-call s:amap(  'g,',  'g;'    )    "qui sont permutés
+call s:amap(  'g;',  'g,'    )    "qui sont permutés
 call s:amap(   'é',  'w'     )    "[w] est peu accessible, on utilise [é]
+call s:amap(   'É',  'W'     )    "idem pour [W] et [É]
 call s:tomap( 'aé',  'aw'    )    "idem pour [aw] et [aé]
 call s:tomap( 'aÉ',  'aW'    )    "idem pour [aW] et [aÉ]
 call s:tomap( 'ié',  'iw'    )    "idem pour [iw] et [ié]
