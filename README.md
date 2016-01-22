@@ -23,7 +23,7 @@ Pour plus de détails, voir la documentation intégrée en tapant
 Ce plugin suit la disposition standard, il est donc compatible avec de nombreux gestionnaires de plugin:
 
 *  [Pathogen](https://github.com/tpope/vim-pathogen)
-  *  `git clone https://github.com/michamos/vim-bepo/g ~/.vim/bundle/vim-airline`
+  *  `git clone https://github.com/michamos/vim-bepo/ ~/.vim/bundle/vim-airline`
   *  exécuter la commande `:Helptags` pour générer les tags de la documentation
 *  [Plug](https://github.com/junegunn/vim-plug)
   *  `Plug 'michamos/vim-bepo'`
