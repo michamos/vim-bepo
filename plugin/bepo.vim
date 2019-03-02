@@ -45,13 +45,11 @@ call s:amap(   'j',  'r'     )    "{j} devient [r]
 call s:amap(   'J',  'R'     )    "{J} devient [R]
 call s:amap(   'k',  's'     )    "{k} devient [s]
 call s:amap(   'K',  'S'     )    "{h} devient [S]
-call s:amap(   'gb', 'gT'    )    "le couple [gb]/[gé] agit sur les tabs
-call s:amap(   'gé', 'gt'    )    "le couple [gb]/[gé] agit sur les tabs
-call s:amap(   'gB', ':execute "silent! tabfirst"<CR>'   )    "[gB] va au premier tab
-call s:amap(   'gÉ', ':execute "silent! tablast"<CR> '   )    "[gÉ] au dernier
+" call s:amap(   'gb', 'gT'    )    "le couple [gb]/[gé] agit sur les tabs
+" call s:amap(   'gé', 'gt'    )    "le couple [gb]/[gé] agit sur les tabs
+" call s:amap(   'gB', ':execute "silent! tabfirst"<CR>'   )    "[gB] va au premier tab
+" call s:amap(   'gÉ', ':execute "silent! tablast"<CR> '   )    "[gÉ] au dernier
 call s:amap(   'gT', '<C-]>' )    "[gT] est libéré et peut agir sur les tags
-call s:amap(   '«',  '<'     )    "[<] est moins accessible que [«]
-call s:amap(   '»',  '>'     )    "idem pour [»] et [>]
 call s:amap(   ';',  ','     )    "idem pour [,] et [;]
 call s:amap(   ',',  ';'     )    "qui sont permutés
 call s:amap(  'g,',  'g;'    )    "idem pour [g,] et [g;]
