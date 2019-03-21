@@ -23,16 +23,16 @@ Pour plus de détails, voir la documentation intégrée en tapant
 Ce plugin suit la disposition standard, il est donc compatible avec de nombreux gestionnaires de plugin:
 
 *  [Pathogen](https://github.com/tpope/vim-pathogen)
-  *  `git clone https://github.com/michamos/vim-bepo/ ~/.vim/bundle/vim-airline`
-  *  exécuter la commande `:Helptags` pour générer les tags de la documentation
+    -  `git clone https://github.com/michamos/vim-bepo/ ~/.vim/bundle/vim-airline`
+    -  exécuter la commande `:Helptags` pour générer les tags de la documentation
 *  [Plug](https://github.com/junegunn/vim-plug)
-  *  `Plug 'michamos/vim-bepo'`
+    -  `Plug 'michamos/vim-bepo'`
 *  [NeoBundle](https://github.com/Shougo/neobundle.vim)
-  *  `NeoBundle 'michamos/vim-bepo'`
+    -  `NeoBundle 'michamos/vim-bepo'`
 *  [Vundle](https://github.com/gmarik/vundle)
-  *  `Plugin 'michamos/vim-bepo'`
+    -  `Plugin 'michamos/vim-bepo'`
 *  manuellement
-  *  copier tous les fichiers dans le dossier `~/.vim`
+    -  copier tous les fichiers dans le dossier `~/.vim`
 
 ## Inspiration
 
