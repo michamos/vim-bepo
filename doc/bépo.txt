@@ -135,6 +135,11 @@ normalement et de plus,
 k                       Voir |netrw-s|.
 
 
+Dans un buffer |:Gstatus| du plugin |fugitive|, les touches de direction
+fonctionnent normalement, et:
+                                                *bépo-fugitive-k*
+k                      Voir |fugitive_s|
+
 PLUGINS                                         *bépo-plugins*
 
 De nombreux plugins redéfinissent les touches de navigation mais offrent des
