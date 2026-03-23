@@ -1,3 +1,6 @@
+> [!CAUTION]
+> Ce plugin n’est plus maintenu car l’auteur utilise désormais la disposition [Ergo-L](https://ergol.org) avec les mappings vim par défaut.
+
 # bepo.vim
 
 Un plugin [Vim](http://www.vim.org) pour une prise en charge de la disposition de clavier [bépo](http://www.bepo.fr).
